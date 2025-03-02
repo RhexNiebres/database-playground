@@ -6,10 +6,6 @@ app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use("/", usersRouter);
 
-app.use((req, res, next) => {
-    console.log("🔹 Incoming Request:", req.method, req.url);
-    next();
-  });
 
   
 const PORT = process.env.PORT || 3000;
