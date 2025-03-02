@@ -12,7 +12,7 @@ INSERT INTO usernames (username)
 VALUES
   ('Bryan'),
   ('Odin'),
-  ('Damon');
+  ('loki');
 `;
 
 async function main() {
