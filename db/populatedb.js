@@ -10,9 +10,9 @@ CREATE TABLE IF NOT EXISTS usernames (
 
 INSERT INTO usernames (username) 
 VALUES
-  ('Bryan'),
-  ('Odin'),
-  ('loki');
+  ('Luffy'),
+  ('Zoro'),
+  ('Sanji');
 `;
 
 async function main() {
