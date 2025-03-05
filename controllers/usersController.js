@@ -1,7 +1,5 @@
 const db = require("../db/queries");
 
-
-
 async function getUsernames(req, res) {
   const usernames = await db.getAllUsernames();
   console.log("Usernames: ", usernames);
